@@ -16,25 +16,24 @@ export const Projects = () => {
     },
   } = useStaticQuery(
     graphql`
-      {
-        github {
-          viewer {
-            repositories(first: 21, orderBy: { field: STARGAZERS, direction: DESC }) {
-              edges {
-                node {
-                  id
-                  name
-                  url
-                  description
-                  stargazers {
-                    totalCount
-                  }
-                  forkCount
-                  languages(first: 2) {
-                    nodes {
-                      id,
-                      name
-                    }
+    {
+      github {
+        viewer {
+          repositories(first: 21, orderBy: { field: STARGAZERS, direction: DESC }) {
+            edges {
+              node {
+                id
+                name
+                url
+                description
+                stargazers {
+                  totalCount
+                }
+                forkCount
+                languages(first: 3) {
+                  nodes {
+                    id,
+                    name
                   }
                 }
               }
@@ -42,7 +41,8 @@ export const Projects = () => {
           }
         }
       }
-    `
+    }
+  `
   );
   return (
     <Wrapper as={Container} id="projects">
