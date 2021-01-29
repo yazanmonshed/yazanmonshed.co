@@ -4,7 +4,7 @@ module.exports = {
   author: 'Yazan Monshed',
   url: 'https://yazanmonshed.com',
   legalName: 'Yazan Monshed',
-  defaultDescription: 'I’m John and I’m a Backend & Devops engineer!',
+  defaultDescription: 'DevOps Enginner. GNU Linux User. Contributor Free & Open Source Software',
   socialLinks: {
     twitter: 'http://www.twitter.com/yazanmonshed',
     github: 'https://github.com/yazanmonshed',
