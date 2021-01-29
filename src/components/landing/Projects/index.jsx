@@ -19,7 +19,7 @@ export const Projects = () => {
       {
         github {
           viewer {
-            repositories(first: 8, orderBy: { field: STARGAZERS, direction: DESC }) {
+            repositories(first: 21, orderBy: { field: STARGAZERS, direction: DESC }) {
               edges {
                 node {
                   id
@@ -30,7 +30,7 @@ export const Projects = () => {
                     totalCount
                   }
                   forkCount
-                  languages(first: 3) {
+                  languages(first: 2) {
                     nodes {
                       id,
                       name

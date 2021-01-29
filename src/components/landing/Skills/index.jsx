@@ -12,17 +12,16 @@ export const Skills = () => {
     <Wrapper id="about">
       <SkillsWrapper as={Container}>
         <Thumbnail>
-          <img src={dev} alt="I’m John and I’m a Backend & Devops engineer!" />
+          <img src={dev} alt="I’m Yazan and I’m & a Devops engineer!" />
         </Thumbnail>
         <Details theme={theme}>
-          <h1>More about me</h1>
+          <h1>About</h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry’s standard dummy.
+          I’ve long been interested in software development and design and always enjoy learning about new and exciting technologies. my experience in Python Frameworks Django, Flask. Golang, Bash and JavaScript libraries like ReactJs. I love open source software especially GNU Linux, my favorite distribution fedora silverblue. working on containerzation technologies like Docker and Kubernetes. kubeflow.
           </p>
-          <Button as={AnchorLink} href="#contact">
+          {/* <Button as={AnchorLink} href="#contact">
             Hire me
-          </Button>
+          </Button> */}
         </Details>
       </SkillsWrapper>
     </Wrapper>

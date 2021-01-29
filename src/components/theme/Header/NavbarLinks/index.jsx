@@ -12,6 +12,7 @@ const NavbarLinks = ({ desktop }) => {
       <AnchorLink href="#about">About</AnchorLink>
       <AnchorLink href="#projects">Projects</AnchorLink>
       <AnchorLink href="#contact">Contact</AnchorLink>
+      <AnchorLink href="http://blog.yazanmonshed.com/" target="_blank">Blog</AnchorLink>
       <ToggleTheme />
     </Wrapper>
   )
