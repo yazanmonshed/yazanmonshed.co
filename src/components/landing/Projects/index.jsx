@@ -16,6 +16,7 @@ export const Projects = () => {
     },
   } = useStaticQuery(
     graphql`
+<<<<<<< HEAD
     {
       github {
         viewer {
@@ -34,6 +35,27 @@ export const Projects = () => {
                   nodes {
                     id,
                     name
+=======
+      {
+        github {
+          viewer {
+            repositories(first: 8, orderBy: { field: STARGAZERS, direction: DESC }) {
+              edges {
+                node {
+                  id
+                  name
+                  url
+                  description
+                  stargazers {
+                    totalCount
+                  }
+                  forkCount
+                  languages(first: 3) {
+                    nodes {
+                      id,
+                      name
+                    }
+>>>>>>> testing
                   }
                 }
               }
